@@ -13,7 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     transition: 0.8s;
     box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
     -4px -4px 6px 0 rgba(116, 125, 136, .2),

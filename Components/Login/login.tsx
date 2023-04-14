@@ -11,7 +11,7 @@ function Login(props) {
 
                 <input style={{marginTop: "15px"}} placeholder={"Password"} className={"input"}/>
 
-                <div className={"container"}>
+                <div className={"login-container"}>
                     <button className={"btn"} onClick={logIn}>
                         <span className={"text"}>Submit</span>
                     </button>

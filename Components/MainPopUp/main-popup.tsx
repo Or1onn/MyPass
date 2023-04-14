@@ -1,5 +1,6 @@
-import "./main-popup.css"
 import Search from "~Components/Search/search";
+import MainBody from "~Components/MainBody/main-body";
+import "./main-popup.css"
 
 function MainPopup() {
     return (
@@ -7,6 +8,8 @@ function MainPopup() {
             <div className={"header"}>
                 <Search/>
             </div>
+
+            <MainBody/>
         </div>
     )
 }
