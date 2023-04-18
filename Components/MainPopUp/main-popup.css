@@ -2,7 +2,7 @@ html body{
     padding: 0;
     margin: 0;
 }
-.main-container{
+.main-popup-container{
     width: 350px;
     height: 550px;
     display: flex;

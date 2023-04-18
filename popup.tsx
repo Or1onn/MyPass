@@ -1,5 +1,5 @@
 import { useState } from "react"
-import './Popup.css';
+import './popup.css';
 import Login from "~Components/Login/login";
 import MainPopup from "~Components/MainPopUp/main-popup";
 function IndexPopup() {
