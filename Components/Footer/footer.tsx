@@ -1,9 +1,9 @@
 import "./footer.css"
 
-function Footer() {
+function Footer(props) {
     return (
         <div className={"footer-container"}>
-            <img className={"plus"} src={require("/assets/plus.svg")} alt={"add password"}/>
+            <img className={"plus"} src={require("/assets/plus.svg")} alt={"add password"} onClick={() => props.onClick("ADD_PASSWORD")}/>
         </div>
     )
 }

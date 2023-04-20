@@ -1,7 +1,7 @@
 import './login.css';
 function Login(props) {
     function logIn() {
-        document.querySelector(".container").classList.toggle("active");
+        document.querySelector(".login-container").classList.toggle("active");
         props.onClick(true);
     }
     return (

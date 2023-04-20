@@ -18,3 +18,20 @@ html body{
     justify-content: center;
     align-items: center;
 }
+
+.logo-site-container{
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site-text{
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
