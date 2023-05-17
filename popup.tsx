@@ -2,6 +2,7 @@ import { useState } from "react"
 import './popup.css';
 import Login from "~Components/Login/login";
 import MainPopup from "~Components/MainPopUp/main-popup";
+
 function IndexPopup() {
     const [isLogin, setLoginStatus] = useState(true);
 

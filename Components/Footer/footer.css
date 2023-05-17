@@ -5,9 +5,9 @@
     background-color: #f6f6f6;
     padding: 3px;
     display: flex;
-    position: absolute;
-    bottom: 0;
     justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
 }
 
 .plus{
